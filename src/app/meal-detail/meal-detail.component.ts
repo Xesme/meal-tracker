@@ -12,6 +12,12 @@ export class MealDetailComponent{
 @Input() childMealList: Meal[];
 @Output() clickSender = new EventEmitter();
 
+filterMealsByCalories: string = "allMeals";
+
+onChange(calorieOption){
+  this.filterMealsByCalories = calorieOption;
+}
+
 editButtonHasBeenClicked(mealToEdit: Meal){
   this.clickSender.emit(mealToEdit);
 }

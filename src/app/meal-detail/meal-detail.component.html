@@ -1,4 +1,12 @@
-<div *ngFor="let currentMeal of childMealList" class="panels">
+<h3>View Foods by calories:</h3>
+<select (change)="onChange($event.target.value)">
+  <option value="allMeals">All Meals</option>
+  <option value="highCalorie">High Calorie Meals</option>
+  <option value="lowCalorie">Low Calorie Meals</option>
+</select>
+<br>
+<hr>
+<div *ngFor="let currentMeal of childMealList | calories:filterMealsByCalories " class="panels">
   <div class="panel panel-default">
     <div class="panel-body">
 

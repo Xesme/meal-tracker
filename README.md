@@ -21,7 +21,7 @@
 | Application has a well thought out README | Set up README with implementation plan and all other necessary information. | completed |
 | Application uses a model to organize data. | Create model for Meal | complete |
 | Components are used to create display and behavior for your templates. | Create components for display-meal, add-meal, edit-meal | complete (meal-detail: done, meal-edit: done, new-meal: done) |
-| Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order | incomplete |
+| Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order by high or low calorie meals | incomplete (high-calorie: done, low-calorie: done, all-meals: done)|
 | Project is portfolio-quality | Removed unnecessary code and use SASS for styling | incomplete |
 
 
