@@ -22,7 +22,7 @@
 | Application uses a model to organize data. | Create model for Meal | complete |
 | Components are used to create display and behavior for your templates. | Create components for display-meal, add-meal, edit-meal | complete (meal-detail: done, meal-edit: done, new-meal: done) |
 | Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order by high or low calorie meals | incomplete (high-calorie: done, low-calorie: done, all-meals: done)|
-| Project is portfolio-quality | Removed unnecessary code and use SASS for styling | incomplete |
+| Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | started |
 
 
 ## Development server
@@ -52,6 +52,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Bugs
 There are no known bugs at this time, but please contact the creator with questions or concerns regarding this application.
+
+## Technologies
+
+## Technologies Used
+* JavaScript
+* TypeScript
+* Angular 2
+* Node
+* Bower
+* Bootstrap
+* HTML
+* CSS
+* SASS
+* Git
 
 ## Licensing
 This application features MIT licensing.

@@ -15,7 +15,6 @@ export class AppComponent {
 
   selectedMeal = null;
 
-
   editMeal(clickedMeal) {
     this.selectedMeal = clickedMeal;
   }
