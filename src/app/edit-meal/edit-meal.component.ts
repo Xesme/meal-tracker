@@ -1,17 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import {  Component, Input, Output, EventEmitter } from '@angular/core';
+import { Meal } from './../meal.model';
 
 @Component({
   selector: 'app-edit-meal',
   templateUrl: './edit-meal.component.html',
   styleUrls: ['./edit-meal.component.css']
 })
+
 export class EditMealComponent {
+@Input() childSelectedMeal: Meal;
+@Output() editDone = new EventEmitter();
 
-  ngOnInit() {
-  }
-
-  editMeal() {
-    alert("It clicks!!!");
-    console.log("this is clicked");
-  }
+editDoneButton(){
+  this.editDone.emit();
+}
 }

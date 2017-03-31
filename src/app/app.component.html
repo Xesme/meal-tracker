@@ -1,5 +1,8 @@
 <div class="container">
   <h1>Food Diary!</h1>
   <h2>Here are your most recent meals</h2>
-  <app-meal-detail [childMealList]="masterMealList"></app-meal-detail>
+  <app-edit-meal [childSelectedMeal]="selectedMeal" (editDone)="finishedEditing()"></app-edit-meal>
+  <hr>
+  <app-meal-detail [childMealList]="masterMealList" (clickSender)="editMeal($event)"></app-meal-detail>
+
 </div>
