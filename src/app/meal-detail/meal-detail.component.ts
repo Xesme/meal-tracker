@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { AppComponent } from './../app.component';
 import { Meal } from './../meal.model';
 
@@ -10,12 +10,10 @@ import { Meal } from './../meal.model';
 })
 export class MealDetailComponent{
 @Input() childMealList: Meal[];
+@Output() clickSender = new EventEmitter();
 
-editMeal() {
-  alert("It clicks!!!")
+editButtonHasBeenClicked(mealToEdit: Meal){
+  this.clickSender.emit(mealToEdit);
 }
-
-  ngOnInit() {
-  }
 
 }

@@ -1,13 +1,13 @@
-<div *ngFor="let meal of childMealList" class="panels">
+<div *ngFor="let currentMeal of childMealList" class="panels">
   <div class="panel panel-default">
     <div class="panel-body">
 
-      <li>name: <strong>{{meal.name}}</strong></li>
-      <li>details: <strong>{{meal.details}}</strong></li>
-      <li>calories: <strong>{{meal.calories}}</strong></li>
+      <li>name: <strong>{{currentMeal.name}}</strong></li>
+      <li>details: <strong>{{currentMeal.details}}</strong></li>
+      <li>calories: <strong>{{currentMeal.calories}}</strong></li>
     </div>
     <div class="panel panel-footer">
-      <app-edit-meal></app-edit-meal>
+      <button (click)="editButtonHasBeenClicked(currentMeal)">Click me!</button>
     </div>
   </div>
 </div>
