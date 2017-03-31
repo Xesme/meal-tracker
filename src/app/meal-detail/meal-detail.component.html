@@ -1,12 +1,13 @@
-<p>
-  meal-detail works!
-</p>
-<div *ngFor="let meal of meals" class="panels">
+<div *ngFor="let meal of childMealList" class="panels">
   <div class="panel panel-default">
     <div class="panel-body">
+
       <li>name: <strong>{{meal.name}}</strong></li>
       <li>details: <strong>{{meal.details}}</strong></li>
       <li>calories: <strong>{{meal.calories}}</strong></li>
+    </div>
+    <div class="panel panel-footer">
+      <app-edit-meal></app-edit-meal>
     </div>
   </div>
 </div>

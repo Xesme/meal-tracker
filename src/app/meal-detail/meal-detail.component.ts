@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 import { AppComponent } from './../app.component';
 import { Meal } from './../meal.model';
 
@@ -9,16 +9,10 @@ import { Meal } from './../meal.model';
   styleUrls: ['./meal-detail.component.css']
 })
 export class MealDetailComponent{
+@Input() childMealList: Meal[];
+
 
   ngOnInit() {
   }
-
-  title = 'Meals!';
-  meals: Meal[] = [
-    new Meal("Hamburger", "Tried a boca patty!", 452),
-    new Meal("Hamburger", "Didn't get a soda or cheese on my burger!", 354),
-    new Meal("Fries", "I only ate half of them.", 365)
-  ];
-
 
 }
