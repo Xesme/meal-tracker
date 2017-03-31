@@ -1,12 +1,14 @@
-<div *ngIf="childSelectedMeal">
-  <h3>Update your food entry for {{childSelectedMeal.name}}:</h3>
-  <div class="form-group">
-    <label for="details">Details:</label>
-    <input [(ngModel)]="childSelectedMeal.details">
+<div class="panel edit">
+  <div *ngIf="childSelectedMeal">
+    <h3>Update your food entry for {{childSelectedMeal.name}}:</h3>
+    <div class="form-group">
+      <label for="details">Details:</label>
+      <input [(ngModel)]="childSelectedMeal.details">
+    </div>
+    <div class="form-group">
+      <label for="details">Calories:</label>
+      <input [(ngModel)]="childSelectedMeal.calories">
+    </div>
+    <button class="btn btn-success"  (click)="editDoneButton()">Done</button>
   </div>
-  <div class="form-group">
-    <label for="details">Calories:</label>
-    <input [(ngModel)]="childSelectedMeal.calories">
-  </div>
-  <button (click)="editDoneButton()">Done</button>
 </div>

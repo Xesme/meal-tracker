@@ -1,4 +1,4 @@
-<h3>View Foods by calories:</h3>
+<h3>View Meals by calories:</h3>
 <select (change)="onChange($event.target.value)">
   <option value="allMeals">All Meals</option>
   <option value="highCalorie">High Calorie Meals</option>
@@ -14,7 +14,7 @@
       <li>calories: <strong>{{currentMeal.calories}}</strong></li>
     </div>
     <div class="panel panel-footer">
-      <button (click)="editButtonHasBeenClicked(currentMeal)">Click me!</button>
+      <button class="btn btn-sm btn-success"  (click)="editButtonHasBeenClicked(currentMeal)">Edit</button>
     </div>
   </div>
 </div>

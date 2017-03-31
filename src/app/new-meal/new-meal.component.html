@@ -1,20 +1,22 @@
-<h2>Add a new meal entry:</h2>
-<div class="form-group">
-  <label for="name">Meal Name:</label>
-  <input #newName>
-</div>
+<div class="panel edit">
+  <h2>Add a new meal entry:</h2>
+  <div class="form-group">
+    <label for="name">Meal Name:</label>
+    <input #newName>
+  </div>
 
-<div class="form-group">
-  <label for="details">Meal Details:</label>
-  <input #newDetails>
-</div>
+  <div class="form-group">
+    <label for="details">Meal Details:</label>
+    <input #newDetails>
+  </div>
 
-<div class="form-group">
-  <label for="calories">Meal Calories:</label>
-  <input #newCalories>
+  <div class="form-group">
+    <label for="calories">Meal Calories:</label>
+    <input #newCalories>
+  </div>
+  <button class="btn btn-info" (click)="submitForm(newName.value, newDetails.value, newCalories.value);
+  newName.value = '';
+  newDetails.value = '';
+  newCalories.value = '';
+  ">Add</button>
 </div>
-<button (click)="submitForm(newName.value, newDetails.value, newCalories.value);
-newName.value = '';
-newDetails.value = '';
-newCalories.value = '';
-">Add</button>
