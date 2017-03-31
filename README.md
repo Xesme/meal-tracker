@@ -19,7 +19,7 @@
 |:-------------:|:-------------:|:-------------:|
 | Create a new project | $ng new food-diary | completed |
 | Application has a well thought out README | Set up README with implementation plan and all other necessary information. | completed |
-| Application uses a model to organize data. | Create model for Meal | incomplete |
+| Application uses a model to organize data. | Create model for Meal | complete |
 | Components are used to create display and behavior for your templates. | Create components for display-meal, add-meal, edit-meal | incmoplete |
 | Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order | incomplete |
 | Project is portfolio-quality | Removed unecessary code and use SASS for styling | incomplete |
