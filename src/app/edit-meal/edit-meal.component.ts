@@ -10,4 +10,8 @@ export class EditMealComponent {
   ngOnInit() {
   }
 
+  editMeal() {
+    alert("It clicks!!!");
+    console.log("this is clicked");
+  }
 }

@@ -11,6 +11,9 @@ import { Meal } from './../meal.model';
 export class MealDetailComponent{
 @Input() childMealList: Meal[];
 
+editMeal() {
+  alert("It clicks!!!")
+}
 
   ngOnInit() {
   }

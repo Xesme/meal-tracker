@@ -22,7 +22,7 @@
 | Application uses a model to organize data. | Create model for Meal | complete |
 | Components are used to create display and behavior for your templates. | Create components for display-meal, add-meal, edit-meal | incomplete (meal-detail: done) |
 | Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order | incomplete |
-| Project is portfolio-quality | Removed unecessary code and use SASS for styling | incomplete |
+| Project is portfolio-quality | Removed unnecessary code and use SASS for styling | incomplete |
 
 
 ## Development server
