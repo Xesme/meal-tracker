@@ -27,13 +27,13 @@
 ## Setup/Installation Requirements
 
   * Follow the link to the Git repository for this project. [Github](https://github.com/Xesme/meal-tracker.git)
-  * In the terminal run *$ git clone link-to-repo-here*
-  * In the terminal run *$ cd project-name*
-  * In the terminal run *$ npm install*
-  * In the terminal run *$ npm install*
-  * In the terminal run *npm start*
-  * In the terminal run *ng serve*
-  * Open your broswer and go to *localhost:4200* to view the web application in browser.
+  * In the terminal run `*$ git clone link-to-repo-here*`
+  * In the terminal run `*$ cd project-name*`
+  * In the terminal run `*$ npm install*`
+  * In the terminal run `*$ npm install*`
+  * In the terminal run `*npm start*`
+  * In the terminal run `*ng serve*`
+  * Open your broswer and go to `*localhost:4200*` to view the web application in browser.
   
 ##  Configuration/dependencies
 
