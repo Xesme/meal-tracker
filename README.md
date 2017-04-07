@@ -24,7 +24,47 @@
 | Models can be filtered using a pipe. | Filter data with pipes to change the display-meal order by high or low calorie meals | incomplete (high-calorie: done, low-calorie: done, all-meals: done)|
 | (Extra) Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | started |
 
+## Setup/Installation Requirements
 
+  * Follow the link to the Git repository for this project. [Github](https://github.com/Xesme/meal-tracker.git)
+  * In the terminal run *$ git clone link-to-repo-here*
+  * In the terminal run *$ cd project-name*
+  * In the terminal run *$ npm install*
+  * In the terminal run *$ npm install*
+  * In the terminal run *npm start*
+  * In the terminal run *ng serve*
+  * Open your broswer and go to *localhost:4200* to view the web application in browser.
+  
+##  Configuration/dependencies
+
+  * NPM (Development)
+    * @angular/cli (Populates  an Angular application)
+
+    * @angular/compiler-cli (Compiles TypeScript into JavaScript in which browsers can understand)
+
+    * Jasmine - core, spec-reporter  (Behavior-driven development framework for testing JavaScript code)
+
+    * Node (JavaScript runtime built on Chrome's V8 JavaScript engine)
+
+    * ts-node (TypeScript execution environment for node)
+    * typescript (A superset of JavaScript that compiles to clean JavaScript output)
+
+    * codelyzer (Helps write consistent code, and discover potential errors)
+
+    * gulp-concat (concatenates files into one)
+
+    * karma - chrome-launcher, cli, jasmine, jasmine-html-reporter, coverage-istanbul-reporter (Allows you to execute JavaScript code in multiple real browsers)
+
+    * protractor (end-to-end test framework for Angular and AngularJS applications)
+
+    * tslint (Checks your TypeScript code for readability, maintainability, and functionality errors)
+
+    * bower (Production)
+
+    * Bootstrap
+
+    * Firebase (data management)
+    
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -66,6 +106,7 @@ There are no known bugs at this time, but please contact the creator with questi
 * CSS
 * SASS
 * Git
+* FireBase
 
 ## Licensing
 This application features MIT licensing.
